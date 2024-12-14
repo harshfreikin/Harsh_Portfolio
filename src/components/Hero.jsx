@@ -1,5 +1,5 @@
 import { HERO } from "../constants";
-import harshImg from "../assets/harsh1.jpg";
+import harshImg from "../assets/Harsh1.jpg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
