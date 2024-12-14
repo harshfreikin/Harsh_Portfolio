@@ -15,11 +15,12 @@ import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
+import { FaTwitter } from "react-icons/fa"; 
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { SiDart, SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { FaJava, FaAws, FaReact } from "react-icons/fa";
+import { SiFlutter, SiFirebase, SiTailwindcss } from "react-icons/si";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -31,10 +32,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
+  name: "HARSH TIWARI",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate Software Developer and AWS Solution Architect with expertise in creating user-friendly applications and scalable cloud solutions. I bring innovative problem-solving skills to drive impactful projects and deliver exceptional results.",
 };
 
 export const PROJECTS = [
@@ -89,41 +90,50 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I’m Harsh Tiwari, a passionate and dedicated professional specializing in Flutter development and AWS solutions. With expertise in programming languages like Java, Dart, Python, C/C++, and JavaScript, I enjoy building efficient, user-friendly applications and scalable cloud infrastructure. My experience spans frameworks like Flutter, tools such as Git, Postman, and Android Studio, and databases like Firebase.",
+  "Currently, I’m pursuing a BTech in Computer Science at Babu Banarasi Das Northern India Institute of Technology (graduating in 2025). My projects include ChitChat (a real-time chat app), Clima (a weather forecasting app), and a Travel UI Clone, showcasing my skills in app development and UI/UX design. I’ve also implemented cloud solutions like custom VPCs and serverless functions with AWS Lambda.",
+  "In addition to advanced Flutter and AWS expertise, I’m expanding my knowledge of Tailwind CSS and React."
 ];
+
 
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "React",
-    experience: "2+ years",
+    icon: <FaJava className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Java",
+    experience: "5+ years",
   },
   {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
+    icon: <SiFlutter className="text-4xl text-white lg:text-5xl" />,
+    name: "Flutter",
     experience: "1.5+ years",
+    
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <SiDart className="text-4xl text-white lg:text-5xl" />,
+    name: "Dart",
+    experience: "1.5+ years",
+    
   },
   {
-    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "Node.js",
-    experience: "2+ years",
+    icon: <SiFirebase className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Firebase",
+    experience: "1.5+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <FaAws className="text-4xl text-red-600 lg:text-5xl" />,
+    name: "Amazon Web Services",
+    experience: "6+ months", 
+  },
+  {
+    icon: <SiTailwindcss className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Tailwind CSS",
+    experience: "Beginner",
+    
+  },
+  {
+    icon: <RiReactjsLine className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "React",
+    experience: "Beginner",
   },
 ];
 
@@ -153,18 +163,25 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "Babu Banrasi Das Northern Indian Institute of Technology",
+    duration: " 2021 - 2025",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Pursuing a Bachelor's degree in Computer Science with a focus on software development, cloud solutions, and mobile applications. Engaged in a variety of academic projects involving Flutter development, AWS solutions, and data structures and algorithms. Contributed to building real-world applications, including real-time chat apps and weather forecasting tools. Actively developing expertise in React, Tailwind CSS, and cloud infrastructure. Expected to graduate with strong technical and problem-solving skills."
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Intermediate (12th Grade)",
+    institution: "New Public Inter College",
+    duration: "2020 - 2021",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Completed coursework with a focus on Mathematics, Computer Science, and Physics. Gained foundational knowledge in programming."
+  },
+  {
+    degree: "High School (Class 10)",
+    institution: "New Public Inter College",
+    duration: "2018 - 2019",
+    description:
+      "Focused on core subjects such as Mathematics, Science, and English, laying the groundwork for future studies in Computer Science."
   },
 ];
 
@@ -178,7 +195,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/harshfreikin/profilecard/?igsh=dW53bXhycmJpN3Vl",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -186,11 +203,11 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/harshfreikin/",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/harsh-tiwari-887992230/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
