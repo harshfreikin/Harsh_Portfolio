@@ -7,11 +7,11 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
+import projectImage1 from "../assets/project1.png";
+import projectImage2 from "../assets/project2.png";
+import projectImage3 from "../assets/travel.jpg";
+import projectImage4 from "../assets/clima.png";
+import projectImage5 from "../assets/dashboard.png";
 import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -41,51 +41,51 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
+    name: "Weather App",
+    description:
+      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with Flutter.",
+    image: projectImage4,
+    githubLink: "https://github.com/harshfreikin/Clima",
+  },
+  {
+    id: 2,
+    name: "Ai-Trip Planner",
+    description:
+      "A Travel Planner website build with React , Gemini Ai , FireBase and Tailwind CSS",
+    image: projectImage2,
+    githubLink: "https://github.com/harshfreikin/Ai-Trip-Planner",
+  },
+  {
+    id: 3,
+    name: "Office DashBoard-UI",
+    description:
+      " DashBoard-UI build using flutter. (Assignment project)",
+    image: projectImage5,
+    githubLink: "https://github.com/harshfreikin/DashBoard",
+  },
+  {
+    id: 4,
+    name: "ChitChatt",
+    description:
+      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with Flutter and Firebase.",
+    image: projectImage6,
+    githubLink: "https://github.com/harshfreikin/ChitChatt",
+  },
+  {
+    id: 5,
+    name: "Flutter Travel-UI",
+    description:
+      "Clone of a traveling application build using flutter.",
+    image: projectImage3,
+    githubLink: "https://github.com/harshfreikin/TravelUi",
+  },
+  {
+    id: 6,
     name: "Personal Portfolio",
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
-  },
-  {
-    id: 2,
-    name: "E-Commerce Platform",
-    description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-  },
-  {
-    id: 3,
-    name: "Task Management Tool",
-    description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
-    image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
-  },
-  {
-    id: 4,
-    name: "Weather App",
-    description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
-  },
-  {
-    id: 5,
-    name: "Blog Platform",
-    description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
-  },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/harshfreikin/Harsh_Portfolio",
   },
 ];
 
